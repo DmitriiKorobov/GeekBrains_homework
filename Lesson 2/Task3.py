@@ -17,4 +17,3 @@ for i in range(len(words)):
 user = int(input('Select your user number '))
 print('Hello,', words[user-1][-1], '!')
 print(id(words))
-
